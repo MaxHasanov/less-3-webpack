@@ -1,0 +1,41 @@
+.gallery_title {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+}
+
+.gallery_items {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  &_image {
+
+    height: 250px;
+    object-fit: cover;
+  }
+
+  &_title {
+    padding: 20px 0;
+  }
+
+  &_video {
+    width: 100%;
+    height: 250px;
+    max-width: 330px;
+  }
+
+  &_audio {
+    margin-top: 125px;
+  }
+}
